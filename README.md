@@ -75,7 +75,7 @@ Riavvia il servizio di rete per applicare le modifiche:
 ```sh
 /etc/init.d/networking restart
 ``` 
-1. Installazione di sudo
+1. Installazione di sudo e nano,
 Ora puoi installare sudo/nano utilizzando il comando apk:
 ```sh
 su -  # Passa a root se non lo sei già
