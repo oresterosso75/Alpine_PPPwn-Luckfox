@@ -60,7 +60,7 @@ Modifica il file /etc/network/interfaces usando vi:
 ```sh
 vi /etc/network/interfaces
 ```
-Utilizzare vi per modificare il file
+Utilizzare vi per modificare il file,
 Entra in modalità di inserimento:
 Premi "i" per entrare in modalità di inserimento.
 Inserisci la seguente configurazione:
