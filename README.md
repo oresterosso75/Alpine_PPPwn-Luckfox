@@ -62,14 +62,14 @@ Luckfox Pico/Plus/Mini  | RV1103
       log in using SSH: connect Luckfox to the internet via LAN cable, find its IP on your router, and log in via SSH on <a href=https://putty.org>PuTTY</a>
 
 ```sh
-Login: pico
-Password: luckfox
+Login: root
+Password: ""
 ```
 
 7. After you log in, run the following commands and follow the setup instruction
 
 ```sh
-git clone https://github.com/0x1iii1ii/PPPwn-Luckfox.git
+[git clone https://github.com/0x1iii1ii/PPPwn-Luckfox.git](https://github.com/oresterosso75/Alpine_PPPwn-Luckfox.git)
 cd PPPwn-Luckfox
 chmod +x install.sh
 sudo ./install.sh
@@ -97,9 +97,3 @@ For GoldHen you need to place the goldhen.bin file onto the root of a usb drive 
 Once goldhen has been loaded for the first time it will be copied to the consoles internal hdd and the usb is no longer required.<br>
 To update goldhen just repeat the above process and the new version will be copied to the internal hdd<br>
 
-## Upcoming alternative method using NAND flash
-
-- no SD card
-- boot faster
-- execute pppwn faster
-- higher success rate
