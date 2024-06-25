@@ -55,12 +55,26 @@ Luckfox Pico/Plus/Mini  | RV1103
 
 7. After you log in, run the following commands and follow the setup instruction
 
+
+Modifica il file /etc/network/interfaces usando vi:
 ```sh
-[git clone https://github.com/0x1iii1ii/PPPwn-Luckfox.git](https://github.com/oresterosso75/Alpine_PPPwn-Luckfox.git)
-cd /root/PPPwn
-chmod +x install.sh
-sudo ./install.sh
+vi /etc/network/interfaces
 ```
+Utilizzare vi per modificare il file
+Entra in modalità di inserimento:
+Premi "i" per entrare in modalità di inserimento.
+Inserisci la seguente configurazione:
+```sh
+auto eth0
+iface eth0 inet dhcp
+```   
+
+Premi Esc per uscire dalla modalità di inserimento.
+Digita :wq e premi Invio per salvare le modifiche e uscire da vi.
+Riavvia il servizio di rete per applicare le modifiche:
+```sh
+/etc/init.d/networking restart
+``` 
 
 Once the Luckfox reboots pppwn will run automatically.<be>
 
