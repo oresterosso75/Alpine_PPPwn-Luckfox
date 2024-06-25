@@ -13,13 +13,11 @@ echo "|  |_|  |  /\\  \\___|    <  |  | (  <_> >    <      "
 echo "|____/____/  \\_____>__|_ \\ |__|  \\____/__/\\_ \\  "
 echo ""
 
-echo "by: https://github.com/0x1iii1ii/PPPwn-Luckfox"
+echo "by: Recompiled by Oresterosso TeamItalianModder"
 echo ""
 echo "credit to:"
 echo "https://github.com/TheOfficialFloW/PPPwn"
 echo "https://github.com/xfangfang/PPPwn_cpp"
-echo ""
-echo "Recompiled by Oresterosso TeamItalianModder"
 echo ""
 
 # Display the list of firmware versions
