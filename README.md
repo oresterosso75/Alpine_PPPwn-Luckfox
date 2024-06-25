@@ -25,7 +25,6 @@ The goal here is to setup the Luckfox pico to automatically try and jailbreak th
 
 ## Requirements
 
-- An SD Card 8GB or above
 - Luckfox Pico/Pro/Max/Plus/Mini
 - Ethernet Cable
 - USB Type-C for power to the board
