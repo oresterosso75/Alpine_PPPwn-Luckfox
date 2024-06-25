@@ -40,7 +40,7 @@ The goal here is to setup the Luckfox pico to automatically try and jailbreak th
 
 ## Installation Software
 
-1. Download <a href=https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Ubuntu OS </a> After you download, extract one of the zip files according to your Luckfox Pico models. <br>
+1. Download <a href= https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Alpine Linux</a> After you download, extract one of the zip files according to your Luckfox Pico models. <br>
 2. Burn the image onto an SD Card. Download <a href=https://drive.google.com/file/d/1ALo4G7rEaF1GNhUHINoYHT_RGWGddzYw>SocToolKit</a> and unzip the burning tool.
 3. Open the software and select your chip type
 
@@ -70,7 +70,7 @@ Password: ""
 
 ```sh
 [git clone https://github.com/0x1iii1ii/PPPwn-Luckfox.git](https://github.com/oresterosso75/Alpine_PPPwn-Luckfox.git)
-cd PPPwn-Luckfox
+cd /root/PPPwn
 chmod +x install.sh
 sudo ./install.sh
 ```
