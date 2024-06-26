@@ -1,8 +1,7 @@
 PPPwn-Luckfox<br>
 Una scheda Linux alternativa a basso costo per eseguire exploit su PS4 con versione 11.00 o inferiore.<br>
 Lavoro originale di theflow <a href=https://github.com/TheOfficialFloW/PPPwn>PPPwn</a>
-e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a> per una riscrittura eseguibile di PPPwn in C++ per Cortex-A7 compatibile con RV1103/RV1106 rockchip<br>
-sulla serie Luckfox pico e SiSTRo per il suo <a href=https://github.com/GoldHEN/GoldHEN>GoldHen</a>, e infine <a href=https://github.com/stooged/PI-Pwn>Stooged</a> per la sua ispirazione. <br>
+e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a> per una riscrittura eseguibile di PPPwn in C++ per Cortex-A7 compatibile con RV1103/RV1106 rockchip sulla serie Luckfox pico e SiSTRo per il suo <a href=https://github.com/GoldHEN/GoldHEN>GoldHen</a>, e infine <a href=https://github.com/stooged/PI-Pwn>Stooged</a> per la sua ispirazione. <br>
 
 Nota
 Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00
