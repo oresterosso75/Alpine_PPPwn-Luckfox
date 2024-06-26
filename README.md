@@ -63,10 +63,10 @@ Riavvia il servizio di rete per applicare le modifiche:
 ``` 
 Ora puoi installare sudo/nano utilizzando il comando apk:
 ```sh
-su -  # Passa a root se non lo sei già
-apk update  # Aggiorna l'elenco dei pacchetti disponibili
-apk add sudo  # Installa il pacchetto sudo
-apk add nano # installa il pacchetto nano
+su -
+apk update 
+apk add sudo 
+apk add nano
 ``` 
 
 Installa PPPwn:
