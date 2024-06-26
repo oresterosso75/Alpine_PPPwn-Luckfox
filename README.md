@@ -37,11 +37,11 @@ Installazione Software
  <a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-ProMax-burn-image/> Alpine Linux Porting</a>
 5 Seguire le istruzioni sul wiki ufficiale
 
-Accesso al dispositivo tramite putty:
-Scarica <a href= https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Putty 0.81</a>.
+Accesso al dispositivo tramite putty:<br>
+Scarica <a href= https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Putty 0.81</a>.<br>
 Segui la procedura per l'accesso:
-<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.
-dopo accesso:
+<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.<br>
+dopo accesso:<br>
 
 Modifica il file /etc/network/interfaces usando vi:
 ```sh
