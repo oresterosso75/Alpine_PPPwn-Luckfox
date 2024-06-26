@@ -4,8 +4,8 @@ Lavoro originale di theflow <a href=https://github.com/TheOfficialFloW/PPPwn>PPP
 e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a> per una riscrittura eseguibile di PPPwn in C++ per Cortex-A7 compatibile con RV1103/RV1106 rockchip sulla serie Luckfox pico e SiSTRo per il suo <a href=https://github.com/GoldHEN/GoldHEN>GoldHen</a>, e infine <a href=https://github.com/stooged/PI-Pwn>Stooged</a> per la sua ispirazione. <br>
 
 Nota
-Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00
-Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto
+Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00<br>
+Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto<br>
 Utilizzo di pppwn nightly build da xfangfang PPPwn_cpp <be>
 Versioni testate
  9.00
