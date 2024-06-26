@@ -6,7 +6,7 @@ e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a
 Nota
 Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00<br>
 Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto<br>
-Utilizzo di pppwn nightly build da xfangfang PPPwn_cpp <be>
+Utilizzo di pppwn nightly build da xfangfang PPPwn_cpp <br><be>
 Versioni testate
  9.00
  9.60
