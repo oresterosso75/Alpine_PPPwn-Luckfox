@@ -1,4 +1,4 @@
-PPPwn-Luckfox
+PPPwn-Luckfox<br>
 Una scheda Linux alternativa a basso costo per eseguire exploit su PS4 con versione 11.00 o inferiore.<br>
 Lavoro originale di theflow <a href=https://github.com/TheOfficialFloW/PPPwn>PPPwn</a>
 e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a> per una riscrittura eseguibile di PPPwn in C++ per Cortex-A7 compatibile con RV1103/RV1106 rockchip
