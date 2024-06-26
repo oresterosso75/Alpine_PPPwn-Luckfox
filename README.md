@@ -7,13 +7,13 @@ Nota
 Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00<br>
 Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto<br>
 Utilizzo di pppwn nightly build da xfangfang PPPwn_cpp <br>
-Versioni testate
- 9.00
- 9.60
- 10.00
- 10.01
- 11.00
-Cosa fa
+Versioni testate<br>
+ 9.00<br>
+ 9.60<br>
+ 10.00<br>
+ 10.01<br>
+ 11.00<br>
+Cosa fa<br>
 L'obiettivo è configurare il Luckfox pico per tentare automaticamente di effettuare il jailbreak della console, tutto ciò che devi fare è aspettare che il processo si completi. Una volta completato il PPPwn, il processo si fermerà. <br>
 
 Requisiti
