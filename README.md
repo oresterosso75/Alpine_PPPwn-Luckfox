@@ -17,11 +17,11 @@ Cosa fa<br>
 L'obiettivo è configurare il Luckfox pico per tentare automaticamente di effettuare il jailbreak della console, tutto ciò che devi fare è aspettare che il processo si completi. Una volta completato il PPPwn, il processo si fermerà. <br>
 
 Requisiti
-Luckfox Pico/Pro/Max/Plus/Mini
-Cavo Ethernet
-USB Type-C per alimentare la scheda
-Una chiavetta USB formattata in exFAT32 (da utilizzare solo la prima volta per caricare GoldHEN)
-Schede supportate
+Luckfox Pico/Pro/Max/Plus/Mini<br>
+Cavo Ethernet<br>
+USB Type-C per alimentare la scheda<br>
+Una chiavetta USB formattata in exFAT32 (da utilizzare solo la prima volta per caricare GoldHEN)<br>
+Schede supportate<br>
 <b>Luckfox Pico Pro</b><br>
 <b>Luckfox Pico Max</b><br>
 <b>Luckfox Pico Plus</b><be>
