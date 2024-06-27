@@ -18,8 +18,8 @@ Requisiti:
 Luckfox Pico/Pro/Max/Plus/Mini<br>
 Cavo Ethernet<br>
 USB Type-C per alimentare la scheda<br>
-Una chiavetta USB formattata in exFAT32 (da utilizzare solo la prima volta per caricare GoldHEN)<br><br>
-Schede supportate<br>
+Una chiavetta USB formattata in exFAT32 (da utilizzare solo la prima volta per caricare GoldHEN)<br>
+Schede supportate:<br><br>
 <b>Luckfox Pico Pro</b><br>
 <b>Luckfox Pico Max</b><br>
 <b>Luckfox Pico Plus</b><be>
