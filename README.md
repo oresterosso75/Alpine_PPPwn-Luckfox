@@ -82,15 +82,17 @@ sudo ./install.sh
 Una volta che il Luckfox si riavvia, PPPwn verrà eseguito automaticamente.
 
 * Nota Speciale per Luckfox Pico/Mini
-Ignora questa sezione se usi le versioni Pro/Max/Plus. Per queste due schede, poiché non c'è una porta Ethernet, è necessario saldare un cavo per la porta LAN (RJ45), sia maschio che femmina. Successivamente, masterizza l'immagine di Ubuntu con pico plus image e segui gli stessi passaggi delle altre schede. Consulta il tab <a href="https://github.com/xfangfang/PPPwn_cpp/issues">Issues</a> per i collegamenti.
+Ignora questa sezione se usi le versioni Pro/Max/Plus.<br>
+Per queste due schede, poiché non c'è una porta Ethernet, è necessario saldare un cavo per la porta LAN (RJ45), sia maschio che femmina. Successivamente segui gli stessi passaggi delle altre schede.
 
-Installazione Hardware
-Collega semplicemente il cavo LAN dal Luckfox Pico alla PS4 e alimenta il Luckfox dalla PS4 tramite un cavo USB Type-C o altre fonti.
-Sulla tua PS4:
-Vai a Impostazioni e poi Rete
-Seleziona Configura connessione Internet e scegli Usa un cavo LAN
-Scegli l'opzione Personalizzata per la configurazione e seleziona PPPoE per le Impostazioni dell'indirizzo IP
-Inserisci ppp come ID utente PPPoE e Password PPPoE
-Scegli Automatico per le Impostazioni DNS e Impostazioni MTU
-Seleziona Non usare per il Server Proxy
+Installazione Hardware<br>
+Collega semplicemente il cavo LAN dal Luckfox Pico alla PS4 e alimenta il Luckfox dalla PS4 tramite un cavo USB Type-C o altre fonti.<br>
+Sulla tua PS4:<br>
+Vai a Impostazioni e poi Rete<br>
+Seleziona Configura connessione Internet e scegli Usa un cavo LAN<br>
+Scegli l'opzione Personalizzata per la configurazione e seleziona PPPoE per le Impostazioni dell'indirizzo IP<br>
+Inserisci ppp come ID utente PPPoE e Password PPPoE<br>
+Scegli Automatico per le Impostazioni DNS e Impostazioni MTU<br>
+Seleziona Non usare per il Server Proxy<br>
+
 Per GoldHen, è necessario posizionare il file goldhen.bin nella radice di una chiavetta USB e collegarla alla console. Una volta caricato GoldHen per la prima volta, verrà copiato sul disco rigido interno della console e la chiavetta USB non sarà più necessaria. Per aggiornare GoldHen, basta ripetere il processo e la nuova versione verrà copiata sul disco rigido interno.
