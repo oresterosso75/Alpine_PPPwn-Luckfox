@@ -5,7 +5,7 @@ Questa scheda rappresenta un'alternativa a basso costo per eseguire exploit su P
 Il lavoro originale è stato realizzato da theflow con il progetto <a href="https://github.com/TheOfficialFloW/PPPwn">PPPwn</a><br>
 Grazie a xfangfang per la riscrittura in C++ eseguibile su Cortex-A7 compatibile con i rockchip RV1103/RV1106 nella serie Luckfox Pico, disponibile nel progetto <a href="https://github.com/xfangfang/PPPwn_cpp">PPPwn-CPP</a>.<br>
 Un ringraziamento speciale va anche a SiSTRo per il suo progetto <a href="https://github.com/GoldHEN/GoldHEN">GoldHen</a>, e infine a Stooged per la sua ispirazione con il progetto <a href="https://github.com/stooged/PI-Pwn">PI-Pwn</a>.<br>
-<nr>
+
 Nota:
 Le versioni di Firmware PS4 attualmente supportate: 9.00, 9.60, 10.00, 10.01, 11.00<br>
 Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto<br>
