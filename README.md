@@ -49,7 +49,7 @@ passwd
 Segui le istruzioni per inserire la nuova password di root.<br>
 Assicurati di ricordare e di poter accedere correttamente con le nuove credenziali una volta impostata la nuova password.<br>
 
-
+Per configurare l'interfaccia di rete eth0 in modalità DHCP<br>
 Modifica il file /etc/network/interfaces usando vi:
 ```sh
 vi /etc/network/interfaces
