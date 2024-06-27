@@ -1,22 +1,19 @@
-PPPwn-Luckfox<br>
-Una scheda Linux alternativa a basso costo per eseguire exploit su PS4 con versione 11.00 o inferiore.<br>
-Lavoro originale di theflow <a href=https://github.com/TheOfficialFloW/PPPwn>PPPwn</a>
-e grazie a xfangfang <a href=https://github.com/xfangfang/PPPwn_cpp>PPPwn-CPP</a> per una riscrittura eseguibile di PPPwn in C++ per Cortex-A7 compatibile con RV1103/RV1106 rockchip sulla serie Luckfox pico e SiSTRo per il suo <a href=https://github.com/GoldHEN/GoldHEN>GoldHen</a>, e infine <a href=https://github.com/stooged/PI-Pwn>Stooged</a> per la sua ispirazione. <br>
+La scheda di sviluppo Luckfox Pico è basata su Linux e progettata per progetti di elettronica e sviluppo di applicazioni integrate.<br>
+Questa scheda rappresenta un'alternativa a basso costo per eseguire exploit su PS4 con versione 11.00 o inferiore.<br>
+Il lavoro originale è stato realizzato da theflow con il progetto <a href="https://github.com/TheOfficialFloW/PPPwn">PPPwn</a><br>
+Grazie a xfangfang per la riscrittura in C++ eseguibile su Cortex-A7 compatibile con i rockchip RV1103/RV1106 nella serie Luckfox Pico, disponibile nel progetto <a href="https://github.com/xfangfang/PPPwn_cpp">PPPwn-CPP</a>.<br>
+Un ringraziamento speciale va anche a SiSTRo per il suo progetto <a href="https://github.com/GoldHEN/GoldHEN">GoldHen</a>, e infine a Stooged per la sua ispirazione con il progetto <a href="https://github.com/stooged/PI-Pwn">PI-Pwn</a>.
 
-Nota
-Versioni attualmente supportate di PS4: 9.00, 9.60, 10.00, 10.01, 11.00<br>
+Nota:
+
+Le versioni di Firmware PS4 attualmente supportate: 9.00, 9.60, 10.00, 10.01, 11.00<br>
 Il tempo medio di PPPwned è circa 1min - 2min, a volte si carica in meno di 1 minuto<br>
-Utilizzo di pppwn nightly build da xfangfang PPPwn_cpp <br>
-Versioni testate<br>
- 9.00<br>
- 9.60<br>
- 10.00<br>
- 10.01<br>
- 11.00<br>
-Cosa fa<br>
-L'obiettivo è configurare il Luckfox pico per tentare automaticamente di effettuare il jailbreak della console, tutto ciò che devi fare è aspettare che il processo si completi. Una volta completato il PPPwn, il processo si fermerà. <br>
+L'obiettivo è configurare il Luckfox Pico in modo che tenti automaticamente di effettuare il jailbreak della PS4.<br>
+Una volta avviato, non è necessario alcun intervento: basta attendere che il processo termini.<br>
+Quando PPPwn completa il jailbreak, il procedimento si arresterà automaticamente.
 
-Requisiti
+Requisiti:
+
 Luckfox Pico/Pro/Max/Plus/Mini<br>
 Cavo Ethernet<br>
 USB Type-C per alimentare la scheda<br>
@@ -82,26 +79,18 @@ cd PPPwn
 chmod +x install.sh
 sudo ./install.sh
 ``` 
+Una volta che il Luckfox si riavvia, PPPwn verrà eseguito automaticamente.
 
-Once the Luckfox reboots pppwn will run automatically.<be>
+* Nota Speciale per Luckfox Pico/Mini
+Ignora questa sezione se usi le versioni Pro/Max/Plus. Per queste due schede, poiché non c'è una porta Ethernet, è necessario saldare un cavo per la porta LAN (RJ45), sia maschio che femmina. Successivamente, masterizza l'immagine di Ubuntu con pico plus image e segui gli stessi passaggi delle altre schede. Consulta il tab <a href="https://github.com/xfangfang/PPPwn_cpp/issues">Issues</a> per i collegamenti.
 
-## * Special Note for Luckfox Pico/Mini
-Ignore this if you use Pro/Max/Plus version. For these 2 boards, there's no Ethernet port, to make it work you need to solder the LAN Port (RJ45) cable to it, either female or male is fine, and burn the Ubuntu image with `pico plus image` and follow the same step as other boards. See the wiring in the `Issues` tab.
-
-## Installation Hardware
-
-1. You simply need to connect the LAN cable from Luckfox Pico to the PS4 and power the Luckfox from the PS4 via a USB Type-C cable or other sources.
-
-## On your PS4:<br>
-
-- Go to `Settings` and then `Network`<br>
-- Select `Set Up Internet connection` and choose `Use a LAN Cable`<br>
-- Choose `Custom` setup and choose `PPPoE` for `IP Address Settings`<br>
-- Enter `ppp` for `PPPoE User ID` and `PPPoE Password`<br>
-- Choose `Automatic` for `DNS Settings` and `MTU Settings`<br>
-- Choose `Do Not Use` for `Proxy Server`<br>
-
-For GoldHen you need to place the goldhen.bin file onto the root of a usb drive and plug it into the console.<br>
-Once goldhen has been loaded for the first time it will be copied to the consoles internal hdd and the usb is no longer required.<br>
-To update goldhen just repeat the above process and the new version will be copied to the internal hdd<br>
-
+Installazione Hardware
+Collega semplicemente il cavo LAN dal Luckfox Pico alla PS4 e alimenta il Luckfox dalla PS4 tramite un cavo USB Type-C o altre fonti.
+Sulla tua PS4:
+Vai a Impostazioni e poi Rete
+Seleziona Configura connessione Internet e scegli Usa un cavo LAN
+Scegli l'opzione Personalizzata per la configurazione e seleziona PPPoE per le Impostazioni dell'indirizzo IP
+Inserisci ppp come ID utente PPPoE e Password PPPoE
+Scegli Automatico per le Impostazioni DNS e Impostazioni MTU
+Seleziona Non usare per il Server Proxy
+Per GoldHen, è necessario posizionare il file goldhen.bin nella radice di una chiavetta USB e collegarla alla console. Una volta caricato GoldHen per la prima volta, verrà copiato sul disco rigido interno della console e la chiavetta USB non sarà più necessaria. Per aggiornare GoldHen, basta ripetere il processo e la nuova versione verrà copiata sul disco rigido interno.
