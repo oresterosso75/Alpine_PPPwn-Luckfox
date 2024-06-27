@@ -46,7 +46,8 @@ Digita:<br>
 ```sh
 passwd
 ```
-Segui le istruzioni per inserire la nuova password di root.
+Segui le istruzioni per inserire la nuova password di root.<br>
+Assicurati di ricordare e di poter accedere correttamente con le nuove credenziali una volta impostata la nuova password.<br>
 
 
 Modifica il file /etc/network/interfaces usando vi:
