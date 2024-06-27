@@ -74,7 +74,6 @@ Ora puoi installare sudo/nano utilizzando il comando apk:
 su -
 apk update 
 apk add sudo 
-apk add nano
 ``` 
 
 Installa PPPwn:
