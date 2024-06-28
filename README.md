@@ -13,7 +13,7 @@ L'obiettivo è configurare il Luckfox Pico in modo che tenti automaticamente di 
 Una volta avviato, non è necessario alcun intervento: basta attendere che il processo termini.<br>
 Quando PPPwn completa il jailbreak, il procedimento si arresterà automaticamente.
 
-Requisiti:
+Requisiti:<br>
 usb Serial Converter <a href=https://voob.it/Q9rP>CP2102</a><br>
 Luckfox Pico/Pro/Max/Plus/Mini<br>
 Cavo Ethernet<br>
