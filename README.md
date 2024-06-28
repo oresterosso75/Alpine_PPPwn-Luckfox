@@ -85,8 +85,8 @@ Installa PPPwn:
 Scarica <a href=https://winscp.net/eng/download.php>WinSCP 6.3</a>
 Connetti al dispositivo con le credenziali (IP,USER,PWD) scorri fino alla cartella root e copia all'interno la cartella PPPwn (avendo cura di rinominarla PPPwn).
 Chiudere il programma
-
-Apri putty, accedi con le credenziali (IP,USER,PWD) ed esegui i comandi:
+Scarica PuTTY <a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html> ultima versione (0.81)</a><br>
+Esegui putty, accedi con le credenziali (IP,USER,PWD), digita i comandi:
 
 ```sh
 cd PPPwn
