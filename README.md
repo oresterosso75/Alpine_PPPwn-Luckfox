@@ -74,11 +74,10 @@ Ora riavvia il servizio di rete per applicare le modifiche:
 ```sh
 /etc/init.d/networking restart
 ``` 
-Installazione di sudo utilizzando i comandi apk:
+Ora utilizziamo i seguenti comandi apk:
 ```sh
 su -
 apk update 
-apk add sudo 
 ``` 
 Ora possiamo disconnettere il dispositivo dalla porta Seriale.<br><br>
 Installa PPPwn:
