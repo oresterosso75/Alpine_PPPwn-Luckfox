@@ -34,9 +34,11 @@ Installazione Software
 Dopo l'accesso è necessario modificare la password di root per consentire l'accesso da WinSCP per il trasferimento di file.<br> 
 Per cambiare o impostare una password in Alpine Linux, segui questi passaggi:<br>
 Digita il comando:<br>
+
 ```sh
 su
-``` premi Invio per loggarti come utente root o avere i privilegi<br>
+```
+Premi Invio per loggarti come utente root o avere i privilegi<br>
 Digita:<br>
 ```sh
 passwd root
