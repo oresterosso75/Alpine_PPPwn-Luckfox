@@ -99,9 +99,9 @@ Una volta che il Luckfox si riavvia, PPPwn verrà eseguito automaticamente.
 Ignora questa sezione se usi le versioni Pro/Max/Plus.<br>
 Per queste due schede, poiché non c'è una porta Ethernet, è necessario saldare un cavo per la porta LAN (RJ45), sia maschio che femmina. Successivamente segui gli stessi passaggi delle altre schede.
 
-Installazione Hardware<br>
+<h1>Installazione Hardware</h1><br><br>
 Collega semplicemente il cavo LAN dal Luckfox Pico alla PS4 e alimenta il Luckfox dalla PS4 tramite un cavo USB Type-C o altre fonti.<br>
-Sulla tua PS4:<br>
+<h2>Sulla tua PS4:</h2><br>
 Vai a Impostazioni e poi Rete<br>
 Seleziona Configura connessione Internet e scegli Usa un cavo LAN<br>
 Scegli l'opzione Personalizzata per la configurazione e seleziona PPPoE per le Impostazioni dell'indirizzo IP<br>
