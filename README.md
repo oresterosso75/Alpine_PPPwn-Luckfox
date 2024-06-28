@@ -54,7 +54,7 @@ vi /etc/network/interfaces
 ```
 Utilizzare vi per modificare il file,
 Entra in modalità di inserimento:
-Premi "i" per entrare in modalità di inserimento e cancella (se presente):
+Digita "i" sulla tastiera per entrare in modalità di inserimento e cancella(se presente):
 ```sh
 auto eth0
 iface eth0 inet static
@@ -69,18 +69,18 @@ iface eth0 inet dhcp
 ```   
 
 Premi Esc per uscire dalla modalità di inserimento.
-Digita :wq e premi Invio per salvare le modifiche e uscire da vi.
-Riavvia il servizio di rete per applicare le modifiche:
+Digita sulla tastiera ":wq" e premi Invio per salvare le modifiche e uscire da vi.
+Ora riavvia il servizio di rete per applicare le modifiche:
 ```sh
 /etc/init.d/networking restart
 ``` 
-Ora puoi installare sudo/nano utilizzando il comando apk:
+Installazione di sudo utilizzando i comandi apk:
 ```sh
 su -
 apk update 
 apk add sudo 
 ``` 
-
+Ora possiamo disconnettere il dispositivo dalla porta Seriale.<br><br>
 Installa PPPwn:
 Scarica <a href=https://winscp.net/eng/download.php>WinSCP 6.3</a>
 Connetti al dispositivo con le credenziali impostate con putty, scorri fino alla cartella root e copia all'interno la cartella PPPwn.
