@@ -83,11 +83,10 @@ apk add sudo
 Ora possiamo disconnettere il dispositivo dalla porta Seriale.<br><br>
 Installa PPPwn:
 Scarica <a href=https://winscp.net/eng/download.php>WinSCP 6.3</a>
-Connetti al dispositivo con le credenziali impostate con putty, scorri fino alla cartella root e copia all'interno la cartella PPPwn.
+Connetti al dispositivo con le credenziali (IP,USER,PWD) scorri fino alla cartella root e copia all'interno la cartella PPPwn (avendo cura di rinominarla PPPwn).
 Chiudere il programma
 
-Apri nuovamente putty, accedi con le credenziali.
-Spostati dentro la cartella PPPwn ed esegui i comandi:
+Apri putty, accedi con le credenziali (IP,USER,PWD) ed esegui i comandi:
 
 ```sh
 cd PPPwn
