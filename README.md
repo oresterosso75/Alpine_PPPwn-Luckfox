@@ -30,19 +30,16 @@ Installazione Software
 
 1 Scarica <a href= https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Alpine Linux</a>. Dopo il download, estrai il file zip dentro la cartella SocToolKit <br>
 2 Scarica <a href=https://drive.google.com/file/d/1ALo4G7rEaF1GNhUHINoYHT_RGWGddzYw>SocToolKit</a> e decomprimi lo strumento di masterizzazione.<br>
-3 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-ProMax-burn-image/> Alpine Linux Porting</a>
-
-Accesso al dispositivo tramite putty:<br>
-Scarica <a href= https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Putty 0.81</a>.<br>
-Segui la procedura per l'accesso:
-<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.<br>
+3 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.<br>
 Dopo l'accesso è necessario modificare la password di root per consentire l'accesso da WinSCP per il trasferimento di file.<br> 
-Username di default è root<br>
 Per cambiare o impostare una password in Alpine Linux, segui questi passaggi:<br>
-Digita il comando su e premi Invio per loggarti come utente root o avere i privilegi<br>
+Digita il comando:<br>
+```sh
+su
+``` premi Invio per loggarti come utente root o avere i privilegi<br>
 Digita:<br>
 ```sh
-passwd
+passwd root
 ```
 Segui le istruzioni per inserire la nuova password di root.<br>
 Assicurati di ricordare e di poter accedere correttamente con le nuove credenziali una volta impostata la nuova password.<br>
