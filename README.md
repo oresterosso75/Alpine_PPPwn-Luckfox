@@ -14,7 +14,7 @@ Una volta avviato, non è necessario alcun intervento: basta attendere che il pr
 Quando PPPwn completa il jailbreak, il procedimento si arresterà automaticamente.
 
 Requisiti:
-
+usb Serial Converter <a href=https://voob.it/Q9rP>CP2102</a><br>
 Luckfox Pico/Pro/Max/Plus/Mini<br>
 Cavo Ethernet<br>
 USB Type-C per alimentare la scheda<br>
