@@ -106,7 +106,7 @@ Sulla tua PS4:<br>
 Vai a Impostazioni di Rete<br>
 Seleziona Configura connessione Internet e scegli Usa un cavo LAN<br>
 Scegli l'opzione Personalizzata per la configurazione e seleziona PPPoE per le Impostazioni dell'indirizzo IP<br>
-Inserisci 0000 come ID utente 0000 e Password PPPoE<br>
+Inserisci 0000 come ID utente 0000 come Password PPPoE<br>
 Scegli Automatico per le Impostazioni DNS e Impostazioni MTU<br>
 Seleziona Non usare per il Server Proxy<br>
 
