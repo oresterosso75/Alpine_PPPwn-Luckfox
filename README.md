@@ -30,8 +30,7 @@ Installazione Software
 
 1 Scarica <a href= https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Alpine Linux</a>. Dopo il download, estrai il file zip dentro la cartella SocToolKit <br>
 2 Scarica <a href=https://drive.google.com/file/d/1ALo4G7rEaF1GNhUHINoYHT_RGWGddzYw>SocToolKit</a> e decomprimi lo strumento di masterizzazione.<br>
-3 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<br>
- <a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-ProMax-burn-image/> Alpine Linux Porting</a>
+3 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-ProMax-burn-image/> Alpine Linux Porting</a>
 
 Accesso al dispositivo tramite putty:<br>
 Scarica <a href= https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>Putty 0.81</a>.<br>
