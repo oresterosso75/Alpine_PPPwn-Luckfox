@@ -38,22 +38,30 @@ Digita il comando:<br>
 ```sh
 su
 ```
-Premi Invio per loggarti come utente root o avere i privilegi<br>
-Digita:<br>
+1 Premi Invio per loggarti come utente root o avere i privilegi<br>
+2 Digita:<br>
 ```sh
 passwd root
 ```
 Segui le istruzioni per inserire la nuova password di root.<br>
-Assicurati di ricordare e di poter accedere correttamente con le nuove credenziali una volta impostata la nuova password.<br>
 
-Per configurare l'interfaccia di rete eth0 in modalità DHCP<br>
+Ora inserendo le nuove credenziali ( IP,User,Password) è possibile accedere correttamente tramite Putty oppure tramite WinSPC.<br> 
+
+Per configurare l'interfaccia di rete eth0 in modalità DHCP (IP dimanico assegnato dal router)<br>
 Modifica il file /etc/network/interfaces usando vi:
 ```sh
 vi /etc/network/interfaces
 ```
 Utilizzare vi per modificare il file,
 Entra in modalità di inserimento:
-Premi "i" per entrare in modalità di inserimento.
+Premi "i" per entrare in modalità di inserimento e cancella (se presente):
+```sh
+auto eth0
+iface eth0 inet static
+        address 192.168.50.59
+        netmask 255.255.255.0
+        gateway 192.168.50.1
+```   
 Inserisci la seguente configurazione:
 ```sh
 auto eth0
