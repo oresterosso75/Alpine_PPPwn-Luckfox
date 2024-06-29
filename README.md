@@ -46,13 +46,6 @@ su
 passwd root
 ```
 Segui le istruzioni per inserire la nuova password di root.<br>
-Ora possiamo scollegare Luckfox Pico dal dispositivo USB Serial.<br><br>
-
-IMPORTANTE: Collegare Luckfox Pico tramite cavo etherntet ad una porta del router (domestico) e alla presa di alimentazione dei 5v<br>
-Da PC Apri un browser web, digita l'indirizzo IP e accedi al gateway "pannello di amministrazione" ( caso comune 192.168.1.1), dovresti vedere ora la pagina di login del router.<br>
-Nei dispositivi ethernet connessi cerca IP che e stato assegnato al Luckfox pico.<br>
-Ora inserendo le nuove credenziali ( IP,User,Password) è possibile accedere correttamente tramite Putty oppure tramite WinSPC.<br> 
-
 Per configurare l'interfaccia di rete eth0 in modalità DHCP (IP dimanico assegnato dal router)<br>
 Modifica il file /etc/network/interfaces usando vi:
 ```sh
