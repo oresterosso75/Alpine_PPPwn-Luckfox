@@ -79,12 +79,17 @@ su
 apk update 
 ``` 
 Ora possiamo disconnettere il dispositivo dalla porta Seriale.<br><br>
-Installa PPPwn:
-Scarica <a href=https://winscp.net/eng/download.php>WinSCP 6.3</a>
-Connetti al dispositivo con le credenziali (IP,USER,PWD) scorri fino alla cartella root e copia all'interno la cartella PPPwn (avendo cura di rinominarla PPPwn).
-Chiudere il programma WinSCP<br>
+
+<h3>Installa PPPwn:</h3>
+
+IMPORTANTE: Collegare Luckfox Pico tramite cavo etherntet ad una porta del router (domestico) e alla presa di alimentazione dei 5v<br>
+Da PC Apri un browser web, digita l'indirizzo IP e accedi al gateway "pannello di amministrazione" ( caso comune 192.168.1.1), dovresti vedere ora la pagina di login del router.<br>
+Nei dispositivi ethernet connessi cerca IP che e stato assegnato al Luckfox pico.<br>
+Scarica ed esegui <a href=https://winscp.net/eng/download.php>WinSCP 6.3</a>
+Connettiti al dispositivo Luckfox Pico con le credenziali (IP,User,Password) entra nella cartella "root" e copia all'interno la cartella PPPwn (avendo cura di rinominarla PPPwn).<br>
+Possiamo uscire e chiudere il programma WinSCP<br>
 Scarica PuTTY <a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html> ultima versione (0.81)</a><br>
-Esegui putty, accedi con le credenziali (IP,USER,PWD), digita i comandi:
+Ora tramite Putty/SSH inserendo le nuove credenziali ( IP,User,Password) sara possibile accedere correttamente al terminale per digitare i seguenti comandi.<br>
 
 ```sh
 cd PPPwn
