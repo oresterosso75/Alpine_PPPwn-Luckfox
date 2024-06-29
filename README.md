@@ -29,9 +29,10 @@ Schede supportate:<br><br>
 
 <h3>Installazione in NAND Flash</h3>
 
-1 Scarica <a href= https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Alpine Linux</a>. Dopo il download, estrai il file zip dentro la cartella SocToolKit <br>
-2 Scarica <a href=https://drive.google.com/file/d/1ALo4G7rEaF1GNhUHINoYHT_RGWGddzYw>SocToolKit</a> e decomprimi lo strumento di masterizzazione.<br>
-3 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.<br>
+1 Scarica RK Driver Assistant <a href=https://files.luckfox.com/wiki/Luckfox-Pico/Software/DriverAssitant_v5.12.zip>Clicca qui per scaricare </a>
+2 Scarica <a href= https://drive.google.com/drive/folders/1sFUWjYpDDisf92q9EwP1Ia7lHgp9PaFS>Alpine Linux</a>. Dopo il download, estrai il file zip dentro la cartella SocToolKit <br>
+3 Scarica <a href=https://drive.google.com/file/d/1ALo4G7rEaF1GNhUHINoYHT_RGWGddzYw>SocToolKit</a> e decomprimi lo strumento di masterizzazione.<br>
+4 Segui i passaggi per flashare il firmware per Luckfox Pico su Windows:<a href= https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-1/>Alpine Linux Porting</a>.<br>
 Dopo l'accesso è necessario modificare la password di root per consentire l'accesso da WinSCP per il trasferimento di file.<br> 
 Per cambiare o impostare una password in Alpine Linux, segui questi passaggi:<br>
 Digita il comando:<br>
