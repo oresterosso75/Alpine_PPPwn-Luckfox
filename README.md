@@ -76,7 +76,7 @@ Ora riavvia il servizio di rete per applicare le modifiche:
 ``` 
 Ora utilizziamo i seguenti comandi apk:
 ```sh
-su -
+su 
 apk update 
 ``` 
 Ora possiamo disconnettere il dispositivo dalla porta Seriale.<br><br>
@@ -90,7 +90,7 @@ Esegui putty, accedi con le credenziali (IP,USER,PWD), digita i comandi:
 ```sh
 cd PPPwn
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 ``` 
 Una volta che il Luckfox si riavvia, PPPwn verrà eseguito automaticamente.
 
