@@ -1,4 +1,5 @@
 <h1>PPPwn-Luckfox</h1>
+<h3>Installazione in NAND Flash</h3>
 <nr>
 La scheda di sviluppo Luckfox Pico è basata su Linux e progettata per progetti di elettronica e sviluppo di applicazioni integrate.<br>
 Questa scheda rappresenta un'alternativa a basso costo per eseguire exploit su PS4 con versione 11.00 o inferiore.<br>
